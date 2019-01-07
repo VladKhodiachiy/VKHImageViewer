@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C52314398248390161BAFB5ABBF9E09 /* VKHImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE651088770E8C27A5FA4B711DC193A7 /* VKHImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF9646749535399B57958A1DFDAD9CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		7FA148CDB253CB375E092C4AFCF3CA92 /* VKHImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686F2D3C44C728A2DC140F4B9223E6B /* VKHImageViewer.swift */; };
+		90B98BD8C03BBC4E85B2A2BB94E58E25 /* VKHImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D606E192B185CDDF89B90C662ED226CE /* VKHImageViewer-dummy.m */; };
+		93BE0610250D3B189C672C2E46DF31A0 /* Pods-VKHImageViewerExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BFB8EEE5AE2E706BDB1C284EFBC4D /* Pods-VKHImageViewerExample-dummy.m */; };
+		C232774E43AD673F431859B8958AB6FA /* VKHImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589A7CE9365DFC5AD4325892BE86E334 /* VKHImageViewController.swift */; };
+		C2B5BF0D48F91FCDA8D8F8EEEB14B5D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		DEF37D812081E83CBC530802B25D3409 /* Pods-VKHImageViewerExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA5764852AC6C327A8A975953003AC4 /* Pods-VKHImageViewerExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7B8EC0052D58E8AED5139904EA95546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A5BA68DB3ADFB1706C1D2D28C3846C;
+			remoteInfo = VKHImageViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3686F2D3C44C728A2DC140F4B9223E6B /* VKHImageViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VKHImageViewer.swift; path = VKHImageViewer/VKHImageViewer/VKHImageViewer.swift; sourceTree = "<group>"; };
+		3B4BFB8EEE5AE2E706BDB1C284EFBC4D /* Pods-VKHImageViewerExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VKHImageViewerExample-dummy.m"; sourceTree = "<group>"; };
+		4EBB02719A4B3B052E69A384ED283926 /* Pods-VKHImageViewerExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VKHImageViewerExample-resources.sh"; sourceTree = "<group>"; };
+		589A7CE9365DFC5AD4325892BE86E334 /* VKHImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VKHImageViewController.swift; path = VKHImageViewer/VKHImageViewer/VKHImageViewController.swift; sourceTree = "<group>"; };
+		68DBFA9A63435E6A85259528B780F17D /* Pods-VKHImageViewerExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VKHImageViewerExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8275F32E27A6C1D17E9F6FEE5516FEB7 /* Pods-VKHImageViewerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VKHImageViewerExample.release.xcconfig"; sourceTree = "<group>"; };
+		83C2502986A2558D9BFBDD74F70C1609 /* VKHImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VKHImageViewer-prefix.pch"; sourceTree = "<group>"; };
+		862658A60E0861795C57C148E8B9164E /* VKHImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VKHImageViewer.framework; path = VKHImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9B664551F92A51EDC4DC9F95023102 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6E97AE132028B27533ABCF50D5BF4CB /* Pods-VKHImageViewerExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VKHImageViewerExample.modulemap"; sourceTree = "<group>"; };
+		AE651088770E8C27A5FA4B711DC193A7 /* VKHImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VKHImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		B1B0BE6AEB73043A99715A984EDD227F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC2BC5B320F7C2FB6ECD6A97125A790 /* Pods-VKHImageViewerExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VKHImageViewerExample-frameworks.sh"; sourceTree = "<group>"; };
+		C560E8A0D1F17908D393B288ABA2EF84 /* VKHImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VKHImageViewer.xcconfig; sourceTree = "<group>"; };
+		D606E192B185CDDF89B90C662ED226CE /* VKHImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VKHImageViewer-dummy.m"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7E1B8EF9DF5BBAB43BDEE47AE4E7B8B /* Pods-VKHImageViewerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VKHImageViewerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		DDA5764852AC6C327A8A975953003AC4 /* Pods-VKHImageViewerExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VKHImageViewerExample-umbrella.h"; sourceTree = "<group>"; };
+		E164C44D61AEF7E3495219A0591EB264 /* Pods_VKHImageViewerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VKHImageViewerExample.framework; path = "Pods-VKHImageViewerExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27811F6BEAFD49553DF16EDEC76033C /* VKHImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VKHImageViewer.modulemap; sourceTree = "<group>"; };
+		E532A25598040810E74F3B910B796F4E /* Pods-VKHImageViewerExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VKHImageViewerExample-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C7C312C94BF355197857D743BF4BE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B5BF0D48F91FCDA8D8F8EEEB14B5D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48B3081DAD9A7511C9C37CFBC9EC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF9646749535399B57958A1DFDAD9CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CDBB8468C7DF98E49F08728D672289A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF199D9B005E2259676E5ABA79B73E32 /* VKHImageViewer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0CDBB8468C7DF98E49F08728D672289A /* Pods */,
+				B2DC0FBE7A3A3074022516B17854AB1A /* Products */,
+				E6940AB527214F3BB7F4CD728156928C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95778053AEBE965EC7181192BAE1F02B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D9B664551F92A51EDC4DC9F95023102 /* Info.plist */,
+				E27811F6BEAFD49553DF16EDEC76033C /* VKHImageViewer.modulemap */,
+				C560E8A0D1F17908D393B288ABA2EF84 /* VKHImageViewer.xcconfig */,
+				D606E192B185CDDF89B90C662ED226CE /* VKHImageViewer-dummy.m */,
+				83C2502986A2558D9BFBDD74F70C1609 /* VKHImageViewer-prefix.pch */,
+				AE651088770E8C27A5FA4B711DC193A7 /* VKHImageViewer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VKHImageViewer";
+			sourceTree = "<group>";
+		};
+		B2DC0FBE7A3A3074022516B17854AB1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E164C44D61AEF7E3495219A0591EB264 /* Pods_VKHImageViewerExample.framework */,
+				862658A60E0861795C57C148E8B9164E /* VKHImageViewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF199D9B005E2259676E5ABA79B73E32 /* VKHImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				589A7CE9365DFC5AD4325892BE86E334 /* VKHImageViewController.swift */,
+				3686F2D3C44C728A2DC140F4B9223E6B /* VKHImageViewer.swift */,
+				95778053AEBE965EC7181192BAE1F02B /* Support Files */,
+			);
+			name = VKHImageViewer;
+			path = VKHImageViewer;
+			sourceTree = "<group>";
+		};
+		C2D30014AB9A840DCCE59ED91693FCC7 /* Pods-VKHImageViewerExample */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0BE6AEB73043A99715A984EDD227F /* Info.plist */,
+				A6E97AE132028B27533ABCF50D5BF4CB /* Pods-VKHImageViewerExample.modulemap */,
+				68DBFA9A63435E6A85259528B780F17D /* Pods-VKHImageViewerExample-acknowledgements.markdown */,
+				E532A25598040810E74F3B910B796F4E /* Pods-VKHImageViewerExample-acknowledgements.plist */,
+				3B4BFB8EEE5AE2E706BDB1C284EFBC4D /* Pods-VKHImageViewerExample-dummy.m */,
+				BFC2BC5B320F7C2FB6ECD6A97125A790 /* Pods-VKHImageViewerExample-frameworks.sh */,
+				4EBB02719A4B3B052E69A384ED283926 /* Pods-VKHImageViewerExample-resources.sh */,
+				DDA5764852AC6C327A8A975953003AC4 /* Pods-VKHImageViewerExample-umbrella.h */,
+				D7E1B8EF9DF5BBAB43BDEE47AE4E7B8B /* Pods-VKHImageViewerExample.debug.xcconfig */,
+				8275F32E27A6C1D17E9F6FEE5516FEB7 /* Pods-VKHImageViewerExample.release.xcconfig */,
+			);
+			name = "Pods-VKHImageViewerExample";
+			path = "Target Support Files/Pods-VKHImageViewerExample";
+			sourceTree = "<group>";
+		};
+		E6940AB527214F3BB7F4CD728156928C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D30014AB9A840DCCE59ED91693FCC7 /* Pods-VKHImageViewerExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90093387A03E0026080D79A16A97DE57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF37D812081E83CBC530802B25D3409 /* Pods-VKHImageViewerExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1544A7A9A2CAA22DEC83017390FDC1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C52314398248390161BAFB5ABBF9E09 /* VKHImageViewer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22F2574634B428B7A61689A5B2F398A2 /* Pods-VKHImageViewerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E31B4EAFCFF0E8F7CE51CCD7693EFB /* Build configuration list for PBXNativeTarget "Pods-VKHImageViewerExample" */;
+			buildPhases = (
+				90093387A03E0026080D79A16A97DE57 /* Headers */,
+				14C47559C3A96755F0A0A31071E68E77 /* Sources */,
+				2C7C312C94BF355197857D743BF4BE35 /* Frameworks */,
+				EE657FE38B56B3E6D8BE28B0AA272386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DF5574C1E638CCA8F6EBEB09207D452 /* PBXTargetDependency */,
+			);
+			name = "Pods-VKHImageViewerExample";
+			productName = "Pods-VKHImageViewerExample";
+			productReference = E164C44D61AEF7E3495219A0591EB264 /* Pods_VKHImageViewerExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28A5BA68DB3ADFB1706C1D2D28C3846C /* VKHImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B78465C858C257B7E5602D3D08CE22 /* Build configuration list for PBXNativeTarget "VKHImageViewer" */;
+			buildPhases = (
+				B1544A7A9A2CAA22DEC83017390FDC1B /* Headers */,
+				C529F84083DF100F467A949352098A1E /* Sources */,
+				6C48B3081DAD9A7511C9C37CFBC9EC95 /* Frameworks */,
+				31543A11F13F03B93E0C957480B10B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKHImageViewer;
+			productName = VKHImageViewer;
+			productReference = 862658A60E0861795C57C148E8B9164E /* VKHImageViewer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B2DC0FBE7A3A3074022516B17854AB1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F2574634B428B7A61689A5B2F398A2 /* Pods-VKHImageViewerExample */,
+				28A5BA68DB3ADFB1706C1D2D28C3846C /* VKHImageViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31543A11F13F03B93E0C957480B10B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE657FE38B56B3E6D8BE28B0AA272386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C47559C3A96755F0A0A31071E68E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE0610250D3B189C672C2E46DF31A0 /* Pods-VKHImageViewerExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C529F84083DF100F467A949352098A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C232774E43AD673F431859B8958AB6FA /* VKHImageViewController.swift in Sources */,
+				90B98BD8C03BBC4E85B2A2BB94E58E25 /* VKHImageViewer-dummy.m in Sources */,
+				7FA148CDB253CB375E092C4AFCF3CA92 /* VKHImageViewer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DF5574C1E638CCA8F6EBEB09207D452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VKHImageViewer;
+			target = 28A5BA68DB3ADFB1706C1D2D28C3846C /* VKHImageViewer */;
+			targetProxy = E7B8EC0052D58E8AED5139904EA95546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D77D003B8F4CAB468AD517A6F783545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C560E8A0D1F17908D393B288ABA2EF84 /* VKHImageViewer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VKHImageViewer/VKHImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VKHImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VKHImageViewer/VKHImageViewer.modulemap";
+				PRODUCT_MODULE_NAME = VKHImageViewer;
+				PRODUCT_NAME = VKHImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		214BB1620381CF089891D155BFD15EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C560E8A0D1F17908D393B288ABA2EF84 /* VKHImageViewer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VKHImageViewer/VKHImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VKHImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VKHImageViewer/VKHImageViewer.modulemap";
+				PRODUCT_MODULE_NAME = VKHImageViewer;
+				PRODUCT_NAME = VKHImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45A645231A1060CBAFF4FA24744ED95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8275F32E27A6C1D17E9F6FEE5516FEB7 /* Pods-VKHImageViewerExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VKHImageViewerExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VKHImageViewerExample/Pods-VKHImageViewerExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB044C4AFAC2A37F66D023639C0B5841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8F6AD84CD9EBD21EE14F83C2F3C21E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F02363C3229E3151CA78A9863467E30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E1B8EF9DF5BBAB43BDEE47AE4E7B8B /* Pods-VKHImageViewerExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VKHImageViewerExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VKHImageViewerExample/Pods-VKHImageViewerExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB044C4AFAC2A37F66D023639C0B5841 /* Debug */,
+				C8F6AD84CD9EBD21EE14F83C2F3C21E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E31B4EAFCFF0E8F7CE51CCD7693EFB /* Build configuration list for PBXNativeTarget "Pods-VKHImageViewerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02363C3229E3151CA78A9863467E30D /* Debug */,
+				45A645231A1060CBAFF4FA24744ED95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B78465C858C257B7E5602D3D08CE22 /* Build configuration list for PBXNativeTarget "VKHImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D77D003B8F4CAB468AD517A6F783545 /* Debug */,
+				214BB1620381CF089891D155BFD15EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

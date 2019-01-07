@@ -1,0 +1,16 @@
+PODS:
+  - VKHImageViewer (1.0.1)
+
+DEPENDENCIES:
+  - VKHImageViewer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - VKHImageViewer
+
+SPEC CHECKSUMS:
+  VKHImageViewer: 79451e4f71133b8645aea65643c326eb4e67b803
+
+PODFILE CHECKSUM: f35a9be4ce4d8605025f694c22a322ca7d7c0e36
+
+COCOAPODS: 1.5.3
