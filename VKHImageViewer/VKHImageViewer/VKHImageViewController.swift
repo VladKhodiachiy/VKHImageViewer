@@ -20,7 +20,7 @@ public class VKHImageViewController: UIViewController {
     private var contentImage: UIImage!
     private var dynamicAnimator: UIDynamicAnimator!
     private var attachementBehavior: UIAttachmentBehavior!
-    private var firstTouch: CGPoint!
+    private var previousTouch: CGPoint!
     
     public var imageURL: URL!
     public var placeHolderImage: UIImage?
@@ -152,8 +152,7 @@ public class VKHImageViewController: UIViewController {
         
         if sender.state == .began {
             
-            firstTouch = locationInView
-            
+            previousTouch = locationInView
             /**
              Add UIDynamicItemBehavior for a small imageView rotation when changed UIPanGestureRecognizer location in view.
              */
@@ -203,7 +202,7 @@ public class VKHImageViewController: UIViewController {
                  Then set UIPushBehavior with motion vector.
                  */
                 
-                let vector = CGVector(dx: locationInView.x - firstTouch.x, dy: locationInView.y - firstTouch.y)
+                let vector = CGVector(dx: locationInView.x - previousTouch.x, dy: locationInView.y - previousTouch.y)
                 let pushBehavior = UIPushBehavior(items: [imageView], mode: .instantaneous)
                 pushBehavior.pushDirection = vector
                 pushBehavior.magnitude = 600
@@ -218,7 +217,7 @@ public class VKHImageViewController: UIViewController {
                 
                 let centerX = imageView.center.x
                 let centerY = imageView.center.y
-                let borderIntersectionPoint = calculateExitPoint(from: firstTouch, to: locationInView)
+                let borderIntersectionPoint = calculateExitPoint(from: previousTouch, to: locationInView)
                 let distance = sqrt(pow((borderIntersectionPoint.x - centerX), 2.0) + pow(borderIntersectionPoint.y - centerY, 2.0))
                 let delay = 0.4 - distance / max(abs(velocity.x), abs(velocity.y))
                 
@@ -232,6 +231,8 @@ public class VKHImageViewController: UIViewController {
                 alpha = 1
                 resetView()
             }
+            
+            previousTouch = locationInView
         } else {
             alpha = 1
             resetView()

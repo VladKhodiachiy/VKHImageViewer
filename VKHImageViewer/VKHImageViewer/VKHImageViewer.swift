@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class VKHImageViewer: UIPageViewController {
+public class VKHImageViewer: UIPageViewController {
     
     //Set text color for Labels. Default is white.
     public var textColor: UIColor = .white
@@ -83,7 +83,7 @@ open class VKHImageViewer: UIPageViewController {
     
     //MARK: - ViewDidLoad
     
-    override open func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         createPhotoViewControllers()
@@ -93,7 +93,7 @@ open class VKHImageViewer: UIPageViewController {
         view.backgroundColor = backgroundColor
     }
     
-    open override var prefersStatusBarHidden: Bool {
+    public override var prefersStatusBarHidden: Bool {
         return !displayStatusBar
     }
     
@@ -111,7 +111,7 @@ open class VKHImageViewer: UIPageViewController {
     
     private func createNameLabel() {
         let heightNameLabel: CGFloat = 40
-        nameLabel = UILabel(frame: CGRect(x: 0, y: view.bounds.height - heightNameLabel, width: view.bounds.width, height: heightNameLabel))
+        nameLabel = UILabel(frame: CGRect(x: 0, y: view.bounds.height - heightNameLabel - 10, width: view.bounds.width, height: heightNameLabel))
         nameLabel.textAlignment = .center
         nameLabel.font = UIFont.systemFont(ofSize: 16)
         nameLabel.autoresizingMask = [.flexibleTopMargin,.flexibleWidth]
@@ -127,7 +127,7 @@ open class VKHImageViewer: UIPageViewController {
         let heightCountLabel: CGFloat = 20
         let yNameLabel = nameLabel.frame.origin.y
         
-        countLabel = UILabel(frame: CGRect(x: 0, y: yNameLabel - 2 * heightCountLabel, width: view.bounds.width, height: heightCountLabel))
+        countLabel = UILabel(frame: CGRect(x: 0, y: yNameLabel - heightCountLabel, width: view.bounds.width, height: heightCountLabel))
         
         countLabel.textAlignment = .center
         countLabel.font = UIFont.systemFont(ofSize: 12)
