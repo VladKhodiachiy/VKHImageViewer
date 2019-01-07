@@ -12,4 +12,3 @@ FOUNDATION_EXPORT double VKHImageViewerVersionNumber;
 FOUNDATION_EXPORT const unsigned char VKHImageViewerVersionString[];
 
 
-

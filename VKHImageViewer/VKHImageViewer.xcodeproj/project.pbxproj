@@ -15,7 +15,6 @@
 /* Begin PBXFileReference section */
 		F387D3C421E29ED700FE3C11 /* VKHImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VKHImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F387D3C721E29ED700FE3C11 /* VKHImageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKHImageViewer.h; sourceTree = "<group>"; };
-		F387D3C821E29ED700FE3C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F387D3CF21E2A13000FE3C11 /* VKHImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKHImageViewer.swift; sourceTree = "<group>"; };
 		F387D3D121E2A14C00FE3C11 /* VKHImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKHImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +52,6 @@
 				F387D3C721E29ED700FE3C11 /* VKHImageViewer.h */,
 				F387D3CF21E2A13000FE3C11 /* VKHImageViewer.swift */,
 				F387D3D121E2A14C00FE3C11 /* VKHImageViewController.swift */,
-				F387D3C821E29ED700FE3C11 /* Info.plist */,
 			);
 			path = VKHImageViewer;
 			sourceTree = "<group>";
