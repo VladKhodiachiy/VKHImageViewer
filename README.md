@@ -5,7 +5,6 @@
 # VKHImageViewer
 
 ![sample](Screenshots/first_example.gif)
-![sample](Screenshots/second_example.gif)
 
 ## Installing
 
@@ -74,3 +73,6 @@ pageVC.displayCountLabel: Bool = true       //Set count label visibility. Defaul
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 
+## Example rotation
+
+![sample](Screenshots/second_example.gif)
