@@ -31,8 +31,8 @@ public class VKHImageViewer: UIPageViewController {
     //Array of images object.
     private var images:[AnyObject]!
     
-    //Array of descriptions. If set single name for all controller, array will be fillings with one string.
-    private var descriptionsArray: [String]!
+    //Array of names. If set single name for all controller, array will be fillings with one string.
+    private var names: [String]!
     
     //Array of page controllers
     private var imageViewControllers = [UIViewController]()
@@ -48,16 +48,16 @@ public class VKHImageViewer: UIPageViewController {
     //MARK: - Init
     
     //Init with different names for different controllers
-    public init(descripdions: [String], images: [AnyObject], currentIndex: Int = 0) {
+    public init(names: [String], images: [AnyObject], currentIndex: Int = 0) {
         super.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options:nil)
-        self.descriptionsArray = descripdions
+        self.names = names
         setValues(images: images, currentIndex: currentIndex)
     }
     
     //Init with one name for all PageControllers
     public init(name: String, images: [AnyObject], currentIndex: Int = 0) {
         super.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options:nil)
-        self.descriptionsArray = Array(repeating: name, count: images.count)
+        self.names = Array(repeating: name, count: images.count)
         setValues(images: images, currentIndex: currentIndex)
     }
     
@@ -142,10 +142,10 @@ public class VKHImageViewer: UIPageViewController {
     
     private func updateLabels(index: Int) {
         countLabel.text = "\(index + 1)/\(imageViewControllers.count)"
-        if index >= descriptionsArray.count {
+        if index >= names.count {
             nameLabel.text = ""
         } else {
-            nameLabel.text = descriptionsArray[index]
+            nameLabel.text = names[index]
         }
     }
 }
