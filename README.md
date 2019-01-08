@@ -37,9 +37,9 @@ present(pageVC, animated: true, completion: nil)
 
 For array of images you can use: 
 
-`https://www.*.*/*.jpg` - string URL
-`URL(string:"https://www.*.*/*.jpg"`  - URL
-`https://www.*.*/*.jpg`  - UIImage
+`https://www.*.*/*.jpg` - string URL,<br/>
+`URL(string:"https://www.*.*/*.jpg"`  - URL,<br/>
+`https://www.*.*/*.jpg`  - UIImage.<br/>
 
 
 If you want use one name for all images then:
