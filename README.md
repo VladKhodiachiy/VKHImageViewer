@@ -25,7 +25,7 @@ Add `import VKHImageViewer` at the top of the Swift file.
 
 In the viewController:
 ```
-let imagesArray = [UIImage(named:"*.*"), "https://*.jpg", URL(string: "https://*.png")] as [AnyObject]
+let imagesArray = [UIImage(named:"*.*"), "https://www.*.*/*.jpg", URL(string: "https://www.*.*/*.png")] as [AnyObject]
 
 let arrayNames = ["one","two","three"]
 let pageVC = VKHImageViewer(names: arrayNames, images: imagesArray)
@@ -34,6 +34,13 @@ pageVC.placeHolderImage = UIImage(named: "error-icon.png")
 
 present(pageVC, animated: true, completion: nil)
 ```
+
+For array of images you can use: 
+
+`https://www.*.*/*.jpg` - string URL
+`URL(string:"https://www.*.*/*.jpg"`  - URL
+`https://www.*.*/*.jpg`  - UIImage
+
 
 If you want use one name for all images then:
 ```
