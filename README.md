@@ -39,7 +39,7 @@ For array of images you can use:
 
 `https://www.*.*/*.jpg` - string URL,<br/>
 `URL(string:"https://www.*.*/*.jpg"`  - URL,<br/>
-`https://www.*.*/*.jpg`  - UIImage.<br/>
+`UIImage(named:"*.*")`  - UIImage.<br/>
 
 
 If you want use one name for all images then:
