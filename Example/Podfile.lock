@@ -1,5 +1,5 @@
 PODS:
-  - VKHImageViewer (1.0.1)
+  - VKHImageViewer (1.0.2)
 
 DEPENDENCIES:
   - VKHImageViewer
@@ -9,7 +9,7 @@ SPEC REPOS:
     - VKHImageViewer
 
 SPEC CHECKSUMS:
-  VKHImageViewer: 79451e4f71133b8645aea65643c326eb4e67b803
+  VKHImageViewer: 32569898ab1c521761d2ec90cd43578c0eba85a3
 
 PODFILE CHECKSUM: f35a9be4ce4d8605025f694c22a322ca7d7c0e36
 

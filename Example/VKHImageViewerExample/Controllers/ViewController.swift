@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         
         let arrayNames = ["one","two","three","four","five"]
         let pageVC = VKHImageViewer(names: arrayNames, images: imagesArray)
-        let page = VKHImageViewer(name: "name", images: imagesArray, currentIndex: 2)
         pageVC.modalPresentationStyle = .overCurrentContext
         pageVC.placeHolderImage = UIImage(named: "error-icon.png")
         
