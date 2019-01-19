@@ -194,6 +194,13 @@ extension VKHImageViewer: UIPageViewControllerDelegate {
             updateLabels(index: vc.indexPage)
         }
     }
+    public func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        if !completed {
+            if let vc = previousViewControllers.first as? VKHImageViewController {
+                updateLabels(index: vc.indexPage)
+            }
+        }
+    }
 }
 
 //MARK: - VKHImageViewControllerDelegate
